@@ -1,12 +1,21 @@
 @prefix : <http://opensensingcity.emse.fr/scans/entity/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sc: <http://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://opensensingcity.emse.fr/scans/entity/> .
 
-<http://opensensingcity.emse.fr/scans/entity/> rdf:type owl:Ontology .
+<http://opensensingcity.emse.fr/scans/entity/> rdf:type owl:Ontology ;
+                                               
+                                               owl:imports <http://purl.org/muto/core> ,
+                                                           <http://purl.org/spar/fabio/> ,
+                                                           <http://purl.org/vocommons/voaf> ,
+                                                           <http://usefulinc.com/ns/doap#> ,
+                                                           <http://www.w3.org/ns/prov-o-20130430> .
 
 
 #################################################################
