@@ -9,6 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix prov: <http://www.w3.org/ns/prov#>
 @prefix dbowl: <http://dbpedia.org/ontology/>
+@prefix voaf: <http://purl.org/vocommons/voaf#>
 @prefix omv: <http://omv.ontoware.org/ontology#>
 @prefix cc:   <http://creativecommons.org/ns#> .
 @base <http://opensensingcity.emse.fr/scans/entity/> .
